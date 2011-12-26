@@ -1,0 +1,479 @@
+TShake
+v7
+r0
+t346601090.435356
+cCheck dependencies
+cCpResource build/Debug-iphoneos/Shake.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Bing/CodePark/Developer/Shake/build/Debug-iphoneos/Shake.app/Info.plist Shake-Info.plist
+cCompileXIB /Bing/CodePark/Developer/Shake/MainWindow.xib
+cCompileXIB /Bing/CodePark/Developer/Shake/ShakeViewController.xib
+cProcessPCH /var/folders/Xi/Xi1yLXY8GZ0Uy-VGelbS0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shake_Prefix-duxkefcyczbzeoehqxyahgmgoidp/Shake_Prefix.pch.gch Shake_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/Xi/Xi1yLXY8GZ0Uy-VGelbS0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shake_Prefix-chlnqnwsyfcmxyeietxhdmnsbrrv/Shake_Prefix.pch.gch Shake_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv6/main.o /Bing/CodePark/Developer/Shake/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv6/ShakeAppDelegate.o /Bing/CodePark/Developer/Shake/Classes/ShakeAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv6/ShakeViewController.o /Bing/CodePark/Developer/Shake/Classes/ShakeViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv6/ShakeView.o /Bing/CodePark/Developer/Shake/Classes/ShakeView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv7/main.o /Bing/CodePark/Developer/Shake/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv6/Shake normal armv6
+cCompileC build/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv7/ShakeAppDelegate.o /Bing/CodePark/Developer/Shake/Classes/ShakeAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv7/ShakeViewController.o /Bing/CodePark/Developer/Shake/Classes/ShakeViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv7/ShakeView.o /Bing/CodePark/Developer/Shake/Classes/ShakeView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv7/Shake normal armv7
+cCreateUniversalBinary /Bing/CodePark/Developer/Shake/build/Debug-iphoneos/Shake.app/Shake normal "armv6 armv7"
+cGenerateDSYMFile /Bing/CodePark/Developer/Shake/build/Debug-iphoneos/Shake.app.dSYM /Bing/CodePark/Developer/Shake/build/Debug-iphoneos/Shake.app/Shake
+cProcessProductPackaging "/Users/Franky/Library/MobileDevice/Provisioning Profiles/B8C03C6F-AA01-4E37-BA3C-311A441270B1.mobileprovision" /Bing/CodePark/Developer/Shake/build/Debug-iphoneos/Shake.app/embedded.mobileprovision
+cTouch /Bing/CodePark/Developer/Shake/build/Debug-iphoneos/Shake.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Shake.xcent
+cCodeSign /Bing/CodePark/Developer/Shake/build/Debug-iphoneos/Shake.app
+
+N/Bing/CodePark/Developer/Shake/Classes/ShakeAppDelegate.h
+c000000004EF8342500000000000001CA
+t1324889125
+s458
+i<UIKit/UIKit.h>
+
+N/Bing/CodePark/Developer/Shake/Classes/ShakeAppDelegate.m
+c000000004EF834250000000000000A82
+t1324889125
+s2690
+i"ShakeAppDelegate.h"
+i"ShakeViewController.h"
+
+N/Bing/CodePark/Developer/Shake/Classes/ShakeView.h
+c000000004EF8352F00000000000000C1
+t1324889391
+s193
+i<UIKit/UIKit.h>
+
+N/Bing/CodePark/Developer/Shake/Classes/ShakeView.m
+c000000004EF835550000000000000272
+t1324889429
+s626
+i"ShakeView.h"
+
+N/Bing/CodePark/Developer/Shake/Classes/ShakeViewController.h
+c000000004EF8385D000000000000013F
+t1324890205
+s319
+i<UIKit/UIKit.h>
+i"ShakeView.h"
+
+N/Bing/CodePark/Developer/Shake/Classes/ShakeViewController.m
+c000000004EF87EFC0000000000000850
+t1324908284
+s2128
+i"ShakeViewController.h"
+
+N/Bing/CodePark/Developer/Shake/MainWindow.xib
+c000000004EF834250000000000004E11
+t1324889125
+s19985
+
+N/Bing/CodePark/Developer/Shake/ShakeViewController.xib
+c000000004EF8498F0000000000004752
+t1324894607
+s18258
+
+N/Bing/CodePark/Developer/Shake/Shake_Prefix.pch
+c000000004EF8342500000000000000B3
+t1324889125
+s179
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Bing/CodePark/Developer/Shake/build/Debug-iphoneos/Shake.app
+t1324908290
+s374
+
+N/Bing/CodePark/Developer/Shake/build/Debug-iphoneos/Shake.app.dSYM
+t1324908289
+s102
+
+N/Bing/CodePark/Developer/Shake/build/Debug-iphoneos/Shake.app/Info.plist
+t1324908285
+s773
+
+N/Bing/CodePark/Developer/Shake/build/Debug-iphoneos/Shake.app/MainWindow.nib
+t1324908285
+s1119
+
+N/Bing/CodePark/Developer/Shake/build/Debug-iphoneos/Shake.app/PkgInfo
+t1324908285
+s8
+
+N/Bing/CodePark/Developer/Shake/build/Debug-iphoneos/Shake.app/ResourceRules.plist
+t1324908285
+s485
+
+N/Bing/CodePark/Developer/Shake/build/Debug-iphoneos/Shake.app/Shake
+t1324908289
+s43584
+
+N/Bing/CodePark/Developer/Shake/build/Debug-iphoneos/Shake.app/ShakeViewController.nib
+t1324908285
+s1317
+
+N/Bing/CodePark/Developer/Shake/build/Debug-iphoneos/Shake.app/embedded.mobileprovision
+t1324908289
+s11674
+
+N/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv6/Shake
+t1324908289
+s19008
+
+N/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv6/Shake.LinkFileList
+c000000004EF87EFD00000000000001C0
+t1324908285
+s448
+
+N/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv6/ShakeAppDelegate.o
+t1324908289
+s50500
+
+N/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv6/ShakeView.o
+t1324908289
+s37416
+
+N/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv6/ShakeViewController.o
+t1324908289
+s43380
+
+N/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv6/main.o
+t1324908289
+s6432
+
+N/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv7/Shake
+t1324908289
+s19008
+
+N/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv7/Shake.LinkFileList
+c000000004EF87EFD00000000000001C0
+t1324908285
+s448
+
+N/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv7/ShakeAppDelegate.o
+t1324908289
+s50416
+
+N/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv7/ShakeView.o
+t1324908289
+s37396
+
+N/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv7/ShakeViewController.o
+t1324908289
+s43252
+
+N/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv7/main.o
+t1324908289
+s6416
+
+N/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Shake.xcent
+t1324908289
+s416
+
+N/Bing/CodePark/Developer/Shake/main.m
+c000000004EF83425000000000000015E
+t1324889125
+s350
+i<UIKit/UIKit.h>
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Users/Franky/Library/MobileDevice/Provisioning Profiles/B8C03C6F-AA01-4E37-BA3C-311A441270B1.mobileprovision
+c000000004EE709600000000000002D9A
+t1323764064
+s11674
+
+N/var/folders/Xi/Xi1yLXY8GZ0Uy-VGelbS0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shake_Prefix-chlnqnwsyfcmxyeietxhdmnsbrrv/Shake_Prefix.pch.gch
+t1324908288
+s10446552
+
+N/var/folders/Xi/Xi1yLXY8GZ0Uy-VGelbS0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shake_Prefix-duxkefcyczbzeoehqxyahgmgoidp/Shake_Prefix.pch.gch
+t1324908288
+s9983704
+
+NShake-Info.plist
+c000000004EF83425000000000000038D
+t1324889125
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies346601085#346601085#0(0"0(0#1#0"3343187568374212096#0"0#
+
+CCodeSign /Bing/CodePark/Developer/Shake/build/Debug-iphoneos/Shake.app
+s346601089.955433
+e346601090.435175
+r1
+xCodeSign
+x/Bing/CodePark/Developer/Shake/build/Debug-iphoneos/Shake.app
+lSLF07#2@39"CodeSign build/Debug-iphoneos/Shake.app346601089#346601090#0(0"0(0#0#61"/Bing/CodePark/Developer/Shake/build/Debug-iphoneos/Shake.app8603482240#606"    cd /Bing/CodePark/Developer/Shake    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Dachuan Yang (C582K9C676)" --resource-rules=/Bing/CodePark/Developer/Shake/build/Debug-iphoneos/Shake.app/ResourceRules.plist --entitlements /Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Shake.xcent /Bing/CodePark/Developer/Shake/build/Debug-iphoneos/Shake.app0#
+
+CCompileC build/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv6/ShakeAppDelegate.o /Bing/CodePark/Developer/Shake/Classes/ShakeAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s346601088.900936
+e346601089.094422
+r1
+xCompileC
+xbuild/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv6/ShakeAppDelegate.o
+x/Bing/CodePark/Developer/Shake/Classes/ShakeAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Bing/CodePark/Developer/Shake/Classes/ShakeAppDelegate.m346601088#346601089#0(0"0(0#0#57"/Bing/CodePark/Developer/Shake/Classes/ShakeAppDelegate.m8605195968#1628"    cd /Bing/CodePark/Developer/Shake    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Shake-generated-files.hmap -I/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Shake-own-target-headers.hmap -I/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Shake-all-target-headers.hmap -iquote /Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Shake-project-headers.hmap -F/Bing/CodePark/Developer/Shake/build/Debug-iphoneos -I/Bing/CodePark/Developer/Shake/build/Debug-iphoneos/include -I/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/DerivedSources/armv6 -I/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/DerivedSources -include /var/folders/Xi/Xi1yLXY8GZ0Uy-VGelbS0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shake_Prefix-duxkefcyczbzeoehqxyahgmgoidp/Shake_Prefix.pch -c /Bing/CodePark/Developer/Shake/Classes/ShakeAppDelegate.m -o /Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv6/ShakeAppDelegate.o0#
+
+CCompileC build/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv6/ShakeView.o /Bing/CodePark/Developer/Shake/Classes/ShakeView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s346601089.094607
+e346601089.184972
+r1
+xCompileC
+xbuild/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv6/ShakeView.o
+x/Bing/CodePark/Developer/Shake/Classes/ShakeView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Bing/CodePark/Developer/Shake/Classes/ShakeView.m346601089#346601089#0(0"0(0#0#50"/Bing/CodePark/Developer/Shake/Classes/ShakeView.m8608478400#1614"    cd /Bing/CodePark/Developer/Shake    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Shake-generated-files.hmap -I/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Shake-own-target-headers.hmap -I/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Shake-all-target-headers.hmap -iquote /Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Shake-project-headers.hmap -F/Bing/CodePark/Developer/Shake/build/Debug-iphoneos -I/Bing/CodePark/Developer/Shake/build/Debug-iphoneos/include -I/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/DerivedSources/armv6 -I/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/DerivedSources -include /var/folders/Xi/Xi1yLXY8GZ0Uy-VGelbS0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shake_Prefix-duxkefcyczbzeoehqxyahgmgoidp/Shake_Prefix.pch -c /Bing/CodePark/Developer/Shake/Classes/ShakeView.m -o /Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv6/ShakeView.o0#
+
+CCompileC build/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv6/ShakeViewController.o /Bing/CodePark/Developer/Shake/Classes/ShakeViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s346601089.060617
+e346601089.170407
+r1
+xCompileC
+xbuild/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv6/ShakeViewController.o
+x/Bing/CodePark/Developer/Shake/Classes/ShakeViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Bing/CodePark/Developer/Shake/Classes/ShakeViewController.m346601089#346601089#0(0"0(0#0#60"/Bing/CodePark/Developer/Shake/Classes/ShakeViewController.m8600850208#1634"    cd /Bing/CodePark/Developer/Shake    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Shake-generated-files.hmap -I/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Shake-own-target-headers.hmap -I/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Shake-all-target-headers.hmap -iquote /Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Shake-project-headers.hmap -F/Bing/CodePark/Developer/Shake/build/Debug-iphoneos -I/Bing/CodePark/Developer/Shake/build/Debug-iphoneos/include -I/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/DerivedSources/armv6 -I/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/DerivedSources -include /var/folders/Xi/Xi1yLXY8GZ0Uy-VGelbS0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shake_Prefix-duxkefcyczbzeoehqxyahgmgoidp/Shake_Prefix.pch -c /Bing/CodePark/Developer/Shake/Classes/ShakeViewController.m -o /Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv6/ShakeViewController.o0#
+
+CCompileC build/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv6/main.o /Bing/CodePark/Developer/Shake/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s346601088.899969
+e346601089.060518
+r1
+xCompileC
+xbuild/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv6/main.o
+x/Bing/CodePark/Developer/Shake/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Compile /Bing/CodePark/Developer/Shake/main.m346601088#346601089#0(0"0(0#0#37"/Bing/CodePark/Developer/Shake/main.m8595002336#1596"    cd /Bing/CodePark/Developer/Shake    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Shake-generated-files.hmap -I/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Shake-own-target-headers.hmap -I/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Shake-all-target-headers.hmap -iquote /Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Shake-project-headers.hmap -F/Bing/CodePark/Developer/Shake/build/Debug-iphoneos -I/Bing/CodePark/Developer/Shake/build/Debug-iphoneos/include -I/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/DerivedSources/armv6 -I/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/DerivedSources -include /var/folders/Xi/Xi1yLXY8GZ0Uy-VGelbS0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shake_Prefix-duxkefcyczbzeoehqxyahgmgoidp/Shake_Prefix.pch -c /Bing/CodePark/Developer/Shake/main.m -o /Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv7/ShakeAppDelegate.o /Bing/CodePark/Developer/Shake/Classes/ShakeAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s346601089.244403
+e346601089.314748
+r1
+xCompileC
+xbuild/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv7/ShakeAppDelegate.o
+x/Bing/CodePark/Developer/Shake/Classes/ShakeAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Bing/CodePark/Developer/Shake/Classes/ShakeAppDelegate.m346601089#346601089#0(0"0(0#0#57"/Bing/CodePark/Developer/Shake/Classes/ShakeAppDelegate.m8608658912#1628"    cd /Bing/CodePark/Developer/Shake    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Shake-generated-files.hmap -I/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Shake-own-target-headers.hmap -I/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Shake-all-target-headers.hmap -iquote /Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Shake-project-headers.hmap -F/Bing/CodePark/Developer/Shake/build/Debug-iphoneos -I/Bing/CodePark/Developer/Shake/build/Debug-iphoneos/include -I/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/DerivedSources/armv7 -I/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/DerivedSources -include /var/folders/Xi/Xi1yLXY8GZ0Uy-VGelbS0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shake_Prefix-chlnqnwsyfcmxyeietxhdmnsbrrv/Shake_Prefix.pch -c /Bing/CodePark/Developer/Shake/Classes/ShakeAppDelegate.m -o /Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv7/ShakeAppDelegate.o0#
+
+CCompileC build/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv7/ShakeView.o /Bing/CodePark/Developer/Shake/Classes/ShakeView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s346601089.383173
+e346601089.466761
+r1
+xCompileC
+xbuild/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv7/ShakeView.o
+x/Bing/CodePark/Developer/Shake/Classes/ShakeView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Bing/CodePark/Developer/Shake/Classes/ShakeView.m346601089#346601089#0(0"0(0#0#50"/Bing/CodePark/Developer/Shake/Classes/ShakeView.m8605256384#1614"    cd /Bing/CodePark/Developer/Shake    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Shake-generated-files.hmap -I/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Shake-own-target-headers.hmap -I/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Shake-all-target-headers.hmap -iquote /Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Shake-project-headers.hmap -F/Bing/CodePark/Developer/Shake/build/Debug-iphoneos -I/Bing/CodePark/Developer/Shake/build/Debug-iphoneos/include -I/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/DerivedSources/armv7 -I/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/DerivedSources -include /var/folders/Xi/Xi1yLXY8GZ0Uy-VGelbS0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shake_Prefix-chlnqnwsyfcmxyeietxhdmnsbrrv/Shake_Prefix.pch -c /Bing/CodePark/Developer/Shake/Classes/ShakeView.m -o /Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv7/ShakeView.o0#
+
+CCompileC build/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv7/ShakeViewController.o /Bing/CodePark/Developer/Shake/Classes/ShakeViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s346601089.314863
+e346601089.383064
+r1
+xCompileC
+xbuild/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv7/ShakeViewController.o
+x/Bing/CodePark/Developer/Shake/Classes/ShakeViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Bing/CodePark/Developer/Shake/Classes/ShakeViewController.m346601089#346601089#0(0"0(0#0#60"/Bing/CodePark/Developer/Shake/Classes/ShakeViewController.m8608025760#1634"    cd /Bing/CodePark/Developer/Shake    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Shake-generated-files.hmap -I/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Shake-own-target-headers.hmap -I/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Shake-all-target-headers.hmap -iquote /Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Shake-project-headers.hmap -F/Bing/CodePark/Developer/Shake/build/Debug-iphoneos -I/Bing/CodePark/Developer/Shake/build/Debug-iphoneos/include -I/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/DerivedSources/armv7 -I/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/DerivedSources -include /var/folders/Xi/Xi1yLXY8GZ0Uy-VGelbS0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shake_Prefix-chlnqnwsyfcmxyeietxhdmnsbrrv/Shake_Prefix.pch -c /Bing/CodePark/Developer/Shake/Classes/ShakeViewController.m -o /Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv7/ShakeViewController.o0#
+
+CCompileC build/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv7/main.o /Bing/CodePark/Developer/Shake/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s346601089.170501
+e346601089.244188
+r1
+xCompileC
+xbuild/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv7/main.o
+x/Bing/CodePark/Developer/Shake/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Compile /Bing/CodePark/Developer/Shake/main.m346601089#346601089#0(0"0(0#0#37"/Bing/CodePark/Developer/Shake/main.m8611403680#1596"    cd /Bing/CodePark/Developer/Shake    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Shake-generated-files.hmap -I/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Shake-own-target-headers.hmap -I/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Shake-all-target-headers.hmap -iquote /Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Shake-project-headers.hmap -F/Bing/CodePark/Developer/Shake/build/Debug-iphoneos -I/Bing/CodePark/Developer/Shake/build/Debug-iphoneos/include -I/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/DerivedSources/armv7 -I/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/DerivedSources -include /var/folders/Xi/Xi1yLXY8GZ0Uy-VGelbS0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shake_Prefix-chlnqnwsyfcmxyeietxhdmnsbrrv/Shake_Prefix.pch -c /Bing/CodePark/Developer/Shake/main.m -o /Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Bing/CodePark/Developer/Shake/MainWindow.xib
+s346601085.321587
+e346601085.875134
+r1
+xCompileXIB
+x/Bing/CodePark/Developer/Shake/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib346601085#346601085#0(0"0(0#0#45"/Bing/CodePark/Developer/Shake/MainWindow.xib8611046784#516"    cd /Bing/CodePark/Developer/Shake    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Bing/CodePark/Developer/Shake/build/Debug-iphoneos/Shake.app/MainWindow.nib /Bing/CodePark/Developer/Shake/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Bing/CodePark/Developer/Shake/ShakeViewController.xib
+s346601085.322269
+e346601085.875546
+r1
+xCompileXIB
+x/Bing/CodePark/Developer/Shake/ShakeViewController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@34"CompileXIB ShakeViewController.xib346601085#346601085#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#54"/Bing/CodePark/Developer/Shake/ShakeViewController.xib8609696992#534"    cd /Bing/CodePark/Developer/Shake    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Bing/CodePark/Developer/Shake/build/Debug-iphoneos/Shake.app/ShakeViewController.nib /Bing/CodePark/Developer/Shake/ShakeViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCpResource build/Debug-iphoneos/Shake.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s346601085.214423
+e346601085.321504
+r1
+xCpResource
+xbuild/Debug-iphoneos/Shake.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist346601085#346601085#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist7297009443364890624#476"    cd /Bing/CodePark/Developer/Shake    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Bing/CodePark/Developer/Shake/build/Debug-iphoneos/Shake.app0#
+
+CCreateUniversalBinary /Bing/CodePark/Developer/Shake/build/Debug-iphoneos/Shake.app/Shake normal "armv6 armv7"
+s346601089.776252
+e346601089.834582
+r1
+xCreateUniversalBinary
+x/Bing/CodePark/Developer/Shake/build/Debug-iphoneos/Shake.app/Shake
+xnormal
+xarmv6 armv7
+lSLF07#2@79"CreateUniversalBinary build/Debug-iphoneos/Shake.app/Shake normal "armv6 armv7"346601089#346601089#0(0"0(0#0#42"/Bing/CodePark/Developer/Shake/armv6 armv78611864480#470"    cd /Bing/CodePark/Developer/Shake    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv6/Shake /Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv7/Shake -output /Bing/CodePark/Developer/Shake/build/Debug-iphoneos/Shake.app/Shake0#
+
+CGenerateDSYMFile /Bing/CodePark/Developer/Shake/build/Debug-iphoneos/Shake.app.dSYM /Bing/CodePark/Developer/Shake/build/Debug-iphoneos/Shake.app/Shake
+s346601089.834678
+e346601089.924247
+r1
+xGenerateDSYMFile
+x/Bing/CodePark/Developer/Shake/build/Debug-iphoneos/Shake.app.dSYM
+x/Bing/CodePark/Developer/Shake/build/Debug-iphoneos/Shake.app/Shake
+lSLF07#2@89"GenerateDSYMFile build/Debug-iphoneos/Shake.app.dSYM build/Debug-iphoneos/Shake.app/Shake346601089#346601089#0(0"0(0#0#67"/Bing/CodePark/Developer/Shake/build/Debug-iphoneos/Shake.app/Shake8611129440#332"    cd /Bing/CodePark/Developer/Shake    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Bing/CodePark/Developer/Shake/build/Debug-iphoneos/Shake.app/Shake -o /Bing/CodePark/Developer/Shake/build/Debug-iphoneos/Shake.app.dSYM0#
+
+CLd /Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv6/Shake normal armv6
+s346601089.185064
+e346601089.773281
+r1
+xLd
+x/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv6/Shake
+xnormal
+xarmv6
+lSLF07#2@107"Link /Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv6/Shake346601089#346601089#0(0"0(0#0#0"8609746560#807"    cd /Bing/CodePark/Developer/Shake    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Bing/CodePark/Developer/Shake/build/Debug-iphoneos -F/Bing/CodePark/Developer/Shake/build/Debug-iphoneos -filelist /Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv6/Shake.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv6/Shake0#
+
+CLd /Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv7/Shake normal armv7
+s346601089.466853
+e346601089.776157
+r1
+xLd
+x/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv7/Shake
+xnormal
+xarmv7
+lSLF07#2@107"Link /Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv7/Shake346601089#346601089#0(0"0(0#0#0"8604445728#807"    cd /Bing/CodePark/Developer/Shake    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Bing/CodePark/Developer/Shake/build/Debug-iphoneos -F/Bing/CodePark/Developer/Shake/build/Debug-iphoneos -filelist /Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv7/Shake.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Objects-normal/armv7/Shake0#
+
+CProcessInfoPlistFile /Bing/CodePark/Developer/Shake/build/Debug-iphoneos/Shake.app/Info.plist Shake-Info.plist
+s346601085.260463
+e346601085.286489
+r1
+xProcessInfoPlistFile
+x/Bing/CodePark/Developer/Shake/build/Debug-iphoneos/Shake.app/Info.plist
+xShake-Info.plist
+lSLF07#2@24"Process Shake-Info.plist346601085#346601085#0(0"0(0#0#47"/Bing/CodePark/Developer/Shake/Shake-Info.plist8612120192#522"    cd /Bing/CodePark/Developer/Shake    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Shake-Info.plist -genpkginfo /Bing/CodePark/Developer/Shake/build/Debug-iphoneos/Shake.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Bing/CodePark/Developer/Shake/build/Debug-iphoneos/Shake.app/ResourceRules.plist -o /Bing/CodePark/Developer/Shake/build/Debug-iphoneos/Shake.app/Info.plist0#
+
+CProcessPCH /var/folders/Xi/Xi1yLXY8GZ0Uy-VGelbS0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shake_Prefix-chlnqnwsyfcmxyeietxhdmnsbrrv/Shake_Prefix.pch.gch Shake_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s346601085.877521
+e346601088.808138
+r1
+xProcessPCH
+x/var/folders/Xi/Xi1yLXY8GZ0Uy-VGelbS0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shake_Prefix-chlnqnwsyfcmxyeietxhdmnsbrrv/Shake_Prefix.pch.gch
+xShake_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile Shake_Prefix.pch346601085#346601088#0(0"0(0#0#47"/Bing/CodePark/Developer/Shake/Shake_Prefix.pch8604996576#1504"    cd /Bing/CodePark/Developer/Shake    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Shake-generated-files.hmap -I/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Shake-own-target-headers.hmap -I/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Shake-all-target-headers.hmap -iquote /Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Shake-project-headers.hmap -F/Bing/CodePark/Developer/Shake/build/Debug-iphoneos -I/Bing/CodePark/Developer/Shake/build/Debug-iphoneos/include -I/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/DerivedSources/armv7 -I/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/DerivedSources -c /Bing/CodePark/Developer/Shake/Shake_Prefix.pch -o /var/folders/Xi/Xi1yLXY8GZ0Uy-VGelbS0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shake_Prefix-chlnqnwsyfcmxyeietxhdmnsbrrv/Shake_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Xi/Xi1yLXY8GZ0Uy-VGelbS0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shake_Prefix-duxkefcyczbzeoehqxyahgmgoidp/Shake_Prefix.pch.gch Shake_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s346601085.875893
+e346601088.899877
+r1
+xProcessPCH
+x/var/folders/Xi/Xi1yLXY8GZ0Uy-VGelbS0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shake_Prefix-duxkefcyczbzeoehqxyahgmgoidp/Shake_Prefix.pch.gch
+xShake_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile Shake_Prefix.pch346601085#346601088#0(0"0(0#0#47"/Bing/CodePark/Developer/Shake/Shake_Prefix.pch8594806048#1504"    cd /Bing/CodePark/Developer/Shake    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Shake-generated-files.hmap -I/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Shake-own-target-headers.hmap -I/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Shake-all-target-headers.hmap -iquote /Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Shake-project-headers.hmap -F/Bing/CodePark/Developer/Shake/build/Debug-iphoneos -I/Bing/CodePark/Developer/Shake/build/Debug-iphoneos/include -I/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/DerivedSources/armv6 -I/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/DerivedSources -c /Bing/CodePark/Developer/Shake/Shake_Prefix.pch -o /var/folders/Xi/Xi1yLXY8GZ0Uy-VGelbS0U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Shake_Prefix-duxkefcyczbzeoehqxyahgmgoidp/Shake_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/Franky/Library/MobileDevice/Provisioning Profiles/B8C03C6F-AA01-4E37-BA3C-311A441270B1.mobileprovision" /Bing/CodePark/Developer/Shake/build/Debug-iphoneos/Shake.app/embedded.mobileprovision
+s346601089.924875
+e346601089.926446
+r1
+xProcessProductPackaging
+x/Users/Franky/Library/MobileDevice/Provisioning Profiles/B8C03C6F-AA01-4E37-BA3C-311A441270B1.mobileprovision
+x/Bing/CodePark/Developer/Shake/build/Debug-iphoneos/Shake.app/embedded.mobileprovision
+lSLF07#2@191"ProcessProductPackaging "/Users/Franky/Library/MobileDevice/Provisioning Profiles/B8C03C6F-AA01-4E37-BA3C-311A441270B1.mobileprovision" build/Debug-iphoneos/Shake.app/embedded.mobileprovision346601089#346601089#0(0"0(0#0#86"/Bing/CodePark/Developer/Shake/build/Debug-iphoneos/Shake.app/embedded.mobileprovision8608918016#406"    cd /Bing/CodePark/Developer/Shake    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/Franky/Library/MobileDevice/Provisioning Profiles/B8C03C6F-AA01-4E37-BA3C-311A441270B1.mobileprovision" -o /Bing/CodePark/Developer/Shake/build/Debug-iphoneos/Shake.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Shake.xcent
+s346601089.929349
+e346601089.955365
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Shake.xcent
+lSLF07#2@169"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/Shake.build/Debug-iphoneos/Shake.build/Shake.xcent346601089#346601089#0(0"0(0#0#87"/Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Shake.xcent8605456864#410"    cd /Bing/CodePark/Developer/Shake    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Bing/CodePark/Developer/Shake/build/Shake.build/Debug-iphoneos/Shake.build/Shake.xcent0#
+
+CTouch /Bing/CodePark/Developer/Shake/build/Debug-iphoneos/Shake.app
+s346601089.926511
+e346601089.929273
+r1
+xTouch
+x/Bing/CodePark/Developer/Shake/build/Debug-iphoneos/Shake.app
+lSLF07#2@67"Touch /Bing/CodePark/Developer/Shake/build/Debug-iphoneos/Shake.app346601089#346601089#0(0"0(0#0#0"8608622560#246"    cd /Bing/CodePark/Developer/Shake    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Bing/CodePark/Developer/Shake/build/Debug-iphoneos/Shake.app0#
+
