@@ -21,6 +21,18 @@
     return self;
 }
 
+-(void)drawRect:(CGRect)rect
+{
+	UILabel *lable = [[UILabel alloc] initWithFrame:CGRectMake(50, 10, 100, 40)];
+	lable.text=@"Bing";
+	lable.backgroundColor =[UIColor blueColor];
+	self.backgroundColor=[UIColor redColor];
+	[self addSubview:lable];
+	[lable release];
+	
+	[super drawRect:rect];
+}
+
 -(BOOL)canBecomeFirstResponder
 {
 	

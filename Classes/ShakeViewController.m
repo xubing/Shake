@@ -7,7 +7,8 @@
 //
 
 #import "ShakeViewController.h"
-
+#import<QuartzCore/CAAnimation.h>
+#import<QuartzCore/CAMediaTimingFunction.h>
 @implementation ShakeViewController
 
 
@@ -29,6 +30,21 @@
 }
 */
 
+-(void)onTimer
+{
+	CATransition *transition = [CATransition animation];
+	transition.duration = 3;
+	transition.timingFunction = [CAMediaTimingFunction functionWithName:
+								 //kCAMediaTimingFunctionEaseInEaseOut];
+								 //kCAMediaTimingFunctionLinear];
+								 kCAMediaTimingFunctionEaseIn];
+	
+	transition.type = //kCATransitionPush;
+	kCATransitionReveal;
+	transition.subtype = kCATransitionFromLeft;//kCATransitionFromBottom;
+	transition.delegate = self;
+	[self.view.layer addAnimation:transition forKey:nil];
+}
 
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
@@ -36,6 +52,9 @@
 
 	sView = [[ShakeView alloc] initWithFrame:self.view.frame];
 	self.view = sView;
+	
+	timer = [NSTimer scheduledTimerWithTimeInterval:5 
+											 target:self selector:@selector(onTimer) userInfo:nil repeats:YES];
     [super viewDidLoad];
 }
 
@@ -60,6 +79,8 @@
 {
 	if (event.subtype == UIEventSubtypeMotionShake) {
 
+		UIAlertView *alertView =[[UIAlertView alloc] initWithTitle:@"Shake Me" message:@"" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+		[alertView show];
 		NSLog(@"motionBegan");
 	}
 }

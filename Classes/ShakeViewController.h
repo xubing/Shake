@@ -11,6 +11,7 @@
 @interface ShakeViewController : UIViewController {
 
 		IBOutlet ShakeView *sView;
+	NSTimer *timer;
 }
 
 	@property (retain,nonatomic)ShakeView* sView;

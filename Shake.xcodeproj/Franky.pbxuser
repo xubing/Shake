@@ -2,16 +2,16 @@
 {
 	1D3623240D0F684500981E51 /* ShakeAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {923, 654}}";
+			sepNavIntBoundsRect = "{{0, 0}, {925, 631}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 458}";
 		};
 	};
 	1D3623250D0F684500981E51 /* ShakeAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {2244, 1344}}";
+			sepNavIntBoundsRect = "{{0, 0}, {2244, 1360}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 1275}";
+			sepNavVisRange = "{1205, 1385}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* Shake */ = {
@@ -22,16 +22,16 @@
 	};
 	28D7ACF60DDB3853001CB0EB /* ShakeViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {923, 654}}";
-			sepNavSelRange = "{180, 0}";
-			sepNavVisRange = "{0, 319}";
+			sepNavIntBoundsRect = "{{0, 0}, {880, 631}}";
+			sepNavSelRange = "{279, 0}";
+			sepNavVisRange = "{0, 336}";
 		};
 	};
 	28D7ACF70DDB3853001CB0EB /* ShakeViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {923, 1552}}";
-			sepNavSelRange = "{679, 0}";
-			sepNavVisRange = "{205, 1000}";
+			sepNavIntBoundsRect = "{{0, 0}, {1220, 1872}}";
+			sepNavSelRange = "{2330, 0}";
+			sepNavVisRange = "{1858, 944}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -43,7 +43,6 @@
 			1D6058900D05DD3D006BFB54 /* Shake */,
 		);
 		breakpoints = (
-			3130A51F14A8B6B1008C3D1F /* ShakeViewController.m:76 */,
 		);
 		codeSenseManager = 311D00B114A86BC400AA53A9 /* Code sense */;
 		executables = (
@@ -55,9 +54,9 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					747,
+					702,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -72,20 +71,41 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 346601050;
-			PBXWorkspaceStateSaveDate = 346601050;
+			PBXPerProjectTemplateStateSaveDate = 346604809;
+			PBXWorkspaceStateSaveDate = 346604809;
 		};
 		perUserProjectItems = {
+			31065AFF14A8C51B003D72CA /* PBXTextBookmark */ = 31065AFF14A8C51B003D72CA /* PBXTextBookmark */;
+			31065B2814A8C6EE003D72CA /* PBXTextBookmark */ = 31065B2814A8C6EE003D72CA /* PBXTextBookmark */;
+			31065B2914A8C6EE003D72CA /* PBXTextBookmark */ = 31065B2914A8C6EE003D72CA /* PBXTextBookmark */;
+			31065B2A14A8C6EE003D72CA /* PBXTextBookmark */ = 31065B2A14A8C6EE003D72CA /* PBXTextBookmark */;
+			31065B2B14A8C6EE003D72CA /* PBXTextBookmark */ = 31065B2B14A8C6EE003D72CA /* PBXTextBookmark */;
+			31065B2C14A8C6EE003D72CA /* PBXTextBookmark */ = 31065B2C14A8C6EE003D72CA /* PBXTextBookmark */;
+			31065B2D14A8C6EE003D72CA /* PBXTextBookmark */ = 31065B2D14A8C6EE003D72CA /* PBXTextBookmark */;
+			31065B5A14A8C7D6003D72CA /* PBXTextBookmark */ = 31065B5A14A8C7D6003D72CA /* PBXTextBookmark */;
+			31065B5B14A8C7D6003D72CA /* PBXTextBookmark */ = 31065B5B14A8C7D6003D72CA /* PBXTextBookmark */;
+			31065B5C14A8C7D6003D72CA /* PBXTextBookmark */ = 31065B5C14A8C7D6003D72CA /* PBXTextBookmark */;
+			31065B5E14A8C7D6003D72CA /* PBXTextBookmark */ = 31065B5E14A8C7D6003D72CA /* PBXTextBookmark */;
+			31065B6014A8C7D6003D72CA /* PBXTextBookmark */ = 31065B6014A8C7D6003D72CA /* PBXTextBookmark */;
+			31065B6114A8C7D6003D72CA /* PBXTextBookmark */ = 31065B6114A8C7D6003D72CA /* PBXTextBookmark */;
+			31065B6D14A8C8FA003D72CA /* PBXTextBookmark */ = 31065B6D14A8C8FA003D72CA /* PBXTextBookmark */;
+			31065B6F14A8C8FA003D72CA /* PBXTextBookmark */ = 31065B6F14A8C8FA003D72CA /* PBXTextBookmark */;
+			31065B7014A8C8FA003D72CA /* PBXTextBookmark */ = 31065B7014A8C8FA003D72CA /* PBXTextBookmark */;
+			31065B7114A8C8FA003D72CA /* PBXTextBookmark */ = 31065B7114A8C8FA003D72CA /* PBXTextBookmark */;
+			31065B7914A8CA52003D72CA /* PBXTextBookmark */ = 31065B7914A8CA52003D72CA /* PBXTextBookmark */;
+			31065B7A14A8CA52003D72CA /* PBXTextBookmark */ = 31065B7A14A8CA52003D72CA /* PBXTextBookmark */;
+			31065B7B14A8CA52003D72CA /* PBXTextBookmark */ = 31065B7B14A8CA52003D72CA /* PBXTextBookmark */;
+			31065B7C14A8CA52003D72CA /* PBXTextBookmark */ = 31065B7C14A8CA52003D72CA /* PBXTextBookmark */;
 			311D00FB14A882A400AA53A9 = 311D00FB14A882A400AA53A9 /* PBXTextBookmark */;
 			311D00FC14A882A400AA53A9 = 311D00FC14A882A400AA53A9 /* PBXTextBookmark */;
-			311D00FD14A882A400AA53A9 = 311D00FD14A882A400AA53A9 /* PBXTextBookmark */;
 			311D00FE14A882A400AA53A9 = 311D00FE14A882A400AA53A9 /* PBXTextBookmark */;
-			311D00FF14A882A400AA53A9 = 311D00FF14A882A400AA53A9 /* PBXTextBookmark */;
 			311D010014A882A400AA53A9 = 311D010014A882A400AA53A9 /* PBXTextBookmark */;
-			311D010214A882A400AA53A9 = 311D010214A882A400AA53A9 /* PBXTextBookmark */;
-			311D010314A882A400AA53A9 = 311D010314A882A400AA53A9 /* PBXTextBookmark */;
-			311D010414A882A400AA53A9 = 311D010414A882A400AA53A9 /* PBXTextBookmark */;
-			311D010514A882A400AA53A9 = 311D010514A882A400AA53A9 /* PBXTextBookmark */;
+			3130A5F314A8C4F9008C3D1F = 3130A5F314A8C4F9008C3D1F /* PBXTextBookmark */;
+			3130A5F414A8C4F9008C3D1F = 3130A5F414A8C4F9008C3D1F /* PBXTextBookmark */;
+			3130A5F514A8C4F9008C3D1F = 3130A5F514A8C4F9008C3D1F /* PBXTextBookmark */;
+			3130A5F614A8C4F9008C3D1F = 3130A5F614A8C4F9008C3D1F /* PBXTextBookmark */;
+			3130A5F714A8C4F9008C3D1F = 3130A5F714A8C4F9008C3D1F /* PBXTextBookmark */;
+			3130A5F814A8C4F9008C3D1F = 3130A5F814A8C4F9008C3D1F /* PBXTextBookmark */;
 		};
 		sourceControlManager = 311D00B014A86BC400AA53A9 /* Source Control */;
 		userBuildSettings = {
@@ -93,10 +113,244 @@
 	};
 	29B97316FDCFA39411CA2CEA /* main.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {925, 654}}";
-			sepNavSelRange = "{26, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {925, 631}}";
+			sepNavSelRange = "{119, 0}";
 			sepNavVisRange = "{0, 350}";
 		};
+	};
+	31065AFF14A8C51B003D72CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ShakeViewController.m */;
+		name = "ShakeViewController.m: 51";
+		rLen = 0;
+		rLoc = 1932;
+		rType = 0;
+		vrLen = 874;
+		vrLoc = 905;
+	};
+	31065B2814A8C6EE003D72CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 311D00B914A86CAF00AA53A9 /* ShakeView.m */;
+		name = "ShakeView.m: 27";
+		rLen = 0;
+		rLoc = 461;
+		rType = 0;
+		vrLen = 716;
+		vrLoc = 19;
+	};
+	31065B2914A8C6EE003D72CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ShakeAppDelegate.h */;
+		name = "ShakeAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 458;
+		vrLoc = 0;
+	};
+	31065B2A14A8C6EE003D72CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ShakeAppDelegate.m */;
+		name = "ShakeAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1206;
+		vrLoc = 0;
+	};
+	31065B2B14A8C6EE003D72CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* ShakeViewController.h */;
+		name = "ShakeViewController.h: 14";
+		rLen = 0;
+		rLoc = 279;
+		rType = 0;
+		vrLen = 336;
+		vrLoc = 0;
+	};
+	31065B2C14A8C6EE003D72CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ShakeViewController.m */;
+		name = "ShakeViewController.m: 20";
+		rLen = 0;
+		rLoc = 594;
+		rType = 0;
+		vrLen = 952;
+		vrLoc = 132;
+	};
+	31065B2D14A8C6EE003D72CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ShakeViewController.m */;
+		name = "ShakeViewController.m: 34";
+		rLen = 0;
+		rLoc = 1272;
+		rType = 0;
+		vrLen = 926;
+		vrLoc = 136;
+	};
+	31065B5A14A8C7D6003D72CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 7";
+		rLen = 0;
+		rLoc = 119;
+		rType = 0;
+		vrLen = 350;
+		vrLoc = 0;
+	};
+	31065B5B14A8C7D6003D72CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* ShakeViewController.h */;
+		name = "ShakeViewController.h: 14";
+		rLen = 0;
+		rLoc = 279;
+		rType = 0;
+		vrLen = 336;
+		vrLoc = 0;
+	};
+	31065B5C14A8C7D6003D72CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 31065B5D14A8C7D6003D72CA /* NSTimer.h */;
+		name = "NSTimer.h: 14";
+		rLen = 151;
+		rLoc = 551;
+		rType = 0;
+		vrLen = 1234;
+		vrLoc = 0;
+	};
+	31065B5D14A8C7D6003D72CA /* NSTimer.h */ = {
+		isa = PBXFileReference;
+		name = NSTimer.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSTimer.h;
+		sourceTree = "<absolute>";
+	};
+	31065B5E14A8C7D6003D72CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 31065B5F14A8C7D6003D72CA /* CAMediaTimingFunction.h */;
+		name = "CAMediaTimingFunction.h: 53";
+		rLen = 63;
+		rLoc = 1849;
+		rType = 0;
+		vrLen = 1563;
+		vrLoc = 520;
+	};
+	31065B5F14A8C7D6003D72CA /* CAMediaTimingFunction.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = CAMediaTimingFunction.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/CAMediaTimingFunction.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {859, 912}}";
+			sepNavSelRange = "{520, 55}";
+			sepNavVisRange = "{0, 1405}";
+		};
+	};
+	31065B6014A8C7D6003D72CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ShakeViewController.m */;
+		name = "ShakeViewController.m: 37";
+		rLen = 35;
+		rLoc = 934;
+		rType = 0;
+		vrLen = 1186;
+		vrLoc = 643;
+	};
+	31065B6114A8C7D6003D72CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ShakeViewController.m */;
+		name = "ShakeViewController.m: 53";
+		rLen = 130;
+		rLoc = 1477;
+		rType = 0;
+		vrLen = 1200;
+		vrLoc = 643;
+	};
+	31065B6D14A8C8FA003D72CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 31065B6E14A8C8FA003D72CA /* CAAnimation.h */;
+		name = "CAAnimation.h: 263";
+		rLen = 17;
+		rLoc = 9339;
+		rType = 0;
+		vrLen = 1497;
+		vrLoc = 8785;
+	};
+	31065B6E14A8C8FA003D72CA /* CAAnimation.h */ = {
+		isa = PBXFileReference;
+		name = CAAnimation.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/CAAnimation.h;
+		sourceTree = "<absolute>";
+	};
+	31065B6F14A8C8FA003D72CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 31065B5F14A8C7D6003D72CA /* CAMediaTimingFunction.h */;
+		name = "CAMediaTimingFunction.h: 17";
+		rLen = 55;
+		rLoc = 520;
+		rType = 0;
+		vrLen = 1405;
+		vrLoc = 0;
+	};
+	31065B7014A8C8FA003D72CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ShakeViewController.m */;
+		name = "ShakeViewController.m: 37";
+		rLen = 21;
+		rLoc = 883;
+		rType = 0;
+		vrLen = 1075;
+		vrLoc = 562;
+	};
+	31065B7114A8C8FA003D72CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ShakeViewController.m */;
+		name = "ShakeViewController.m: 36";
+		rLen = 0;
+		rLoc = 851;
+		rType = 0;
+		vrLen = 1072;
+		vrLoc = 562;
+	};
+	31065B7914A8CA52003D72CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ShakeAppDelegate.m */;
+		name = "ShakeAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1385;
+		vrLoc = 1205;
+	};
+	31065B7A14A8CA52003D72CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* ShakeViewController.h */;
+		name = "ShakeViewController.h: 14";
+		rLen = 0;
+		rLoc = 279;
+		rType = 0;
+		vrLen = 336;
+		vrLoc = 0;
+	};
+	31065B7B14A8CA52003D72CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ShakeViewController.m */;
+		name = "ShakeViewController.m: 37";
+		rLen = 0;
+		rLoc = 862;
+		rType = 0;
+		vrLen = 1215;
+		vrLoc = 756;
+	};
+	31065B7C14A8CA52003D72CA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ShakeViewController.m */;
+		name = "ShakeViewController.m: 83";
+		rLen = 0;
+		rLoc = 2330;
+		rType = 0;
+		vrLen = 944;
+		vrLoc = 1858;
 	};
 	311D00A614A86BA500AA53A9 /* Shake */ = {
 		isa = PBXExecutable;
@@ -105,7 +359,7 @@
 		argumentStrings = (
 		);
 		autoAttachOnCrash = 1;
-		breakpointsEnabled = 1;
+		breakpointsEnabled = 0;
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;
@@ -147,15 +401,15 @@
 	311D00B814A86CAF00AA53A9 /* ShakeView.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {925, 631}}";
-			sepNavSelRange = "{193, 0}";
+			sepNavSelRange = "{192, 0}";
 			sepNavVisRange = "{0, 193}";
 		};
 	};
 	311D00B914A86CAF00AA53A9 /* ShakeView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {923, 688}}";
-			sepNavSelRange = "{380, 0}";
-			sepNavVisRange = "{19, 607}";
+			sepNavIntBoundsRect = "{{0, 0}, {925, 800}}";
+			sepNavSelRange = "{461, 0}";
+			sepNavVisRange = "{19, 716}";
 		};
 	};
 	311D00FB14A882A400AA53A9 /* PBXTextBookmark */ = {
@@ -178,16 +432,6 @@
 		vrLen = 350;
 		vrLoc = 0;
 	};
-	311D00FD14A882A400AA53A9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* ShakeAppDelegate.m */;
-		name = "ShakeAppDelegate.m: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 1206;
-		vrLoc = 0;
-	};
 	311D00FE14A882A400AA53A9 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 1D3623240D0F684500981E51 /* ShakeAppDelegate.h */;
@@ -196,16 +440,6 @@
 		rLoc = 0;
 		rType = 0;
 		vrLen = 458;
-		vrLoc = 0;
-	};
-	311D00FF14A882A400AA53A9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 311D00B814A86CAF00AA53A9 /* ShakeView.h */;
-		name = "ShakeView.h: 17";
-		rLen = 0;
-		rLoc = 193;
-		rType = 0;
-		vrLen = 193;
 		vrLoc = 0;
 	};
 	311D010014A882A400AA53A9 /* PBXTextBookmark */ = {
@@ -225,17 +459,37 @@
 		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h;
 		sourceTree = "<absolute>";
 	};
-	311D010214A882A400AA53A9 /* PBXTextBookmark */ = {
+	3130A5F314A8C4F9008C3D1F /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 311D00B914A86CAF00AA53A9 /* ShakeView.m */;
 		name = "ShakeView.m: 27";
 		rLen = 0;
-		rLoc = 380;
+		rLoc = 671;
 		rType = 0;
-		vrLen = 597;
-		vrLoc = 29;
+		vrLen = 607;
+		vrLoc = 19;
 	};
-	311D010314A882A400AA53A9 /* PBXTextBookmark */ = {
+	3130A5F414A8C4F9008C3D1F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 311D00B814A86CAF00AA53A9 /* ShakeView.h */;
+		name = "ShakeView.h: 16";
+		rLen = 0;
+		rLoc = 192;
+		rType = 0;
+		vrLen = 193;
+		vrLoc = 0;
+	};
+	3130A5F514A8C4F9008C3D1F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ShakeAppDelegate.m */;
+		name = "ShakeAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1206;
+		vrLoc = 0;
+	};
+	3130A5F614A8C4F9008C3D1F /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF60DDB3853001CB0EB /* ShakeViewController.h */;
 		name = "ShakeViewController.h: 10";
@@ -245,43 +499,25 @@
 		vrLen = 319;
 		vrLoc = 0;
 	};
-	311D010414A882A400AA53A9 /* PBXTextBookmark */ = {
+	3130A5F714A8C4F9008C3D1F /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF70DDB3853001CB0EB /* ShakeViewController.m */;
-		name = "ShakeViewController.m: 35";
+		name = "ShakeViewController.m: 29";
 		rLen = 0;
-		rLoc = 796;
+		rLoc = 751;
 		rType = 0;
-		vrLen = 873;
-		vrLoc = 904;
+		vrLen = 905;
+		vrLoc = 0;
 	};
-	311D010514A882A400AA53A9 /* PBXTextBookmark */ = {
+	3130A5F814A8C4F9008C3D1F /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF70DDB3853001CB0EB /* ShakeViewController.m */;
-		name = "ShakeViewController.m: 32";
+		name = "ShakeViewController.m: 57";
 		rLen = 0;
-		rLoc = 679;
+		rLoc = 2042;
 		rType = 0;
-		vrLen = 1037;
-		vrLoc = 205;
-	};
-	3130A51F14A8B6B1008C3D1F /* ShakeViewController.m:76 */ = {
-		isa = PBXFileBreakpoint;
-		actions = (
-		);
-		breakpointStyle = 0;
-		continueAfterActions = 0;
-		countType = 0;
-		delayBeforeContinue = 0;
-		fileReference = 28D7ACF70DDB3853001CB0EB /* ShakeViewController.m */;
-		functionName = "-motionEnd:withEvent:";
-		hitCount = 0;
-		ignoreCount = 0;
-		lineNumber = 76;
-		location = Shake;
-		modificationTime = 346601157.66994;
-		originalNumberOfMultipleMatches = 1;
-		state = 1;
+		vrLen = 909;
+		vrLoc = 905;
 	};
 	32CA4F630368D1EE00C91783 /* Shake_Prefix.pch */ = {
 		uiCtxt = {
